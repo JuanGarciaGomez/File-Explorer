@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FileExplorer</string>
+    <string name="file">File</string>
+    <string name="folder">Folder</string>
+    <string name="name">Name</string>
+    <string name="cancel">CANCEL</string>
+    <string name="ok">OK</string>
+    <string name="aceptar">ACEPTAR</string>
+    <string name="información">Información</string>
+    <string name="nombre">Nombre</string>
+    <string name="ubicacion">Ubicacion</string>
+    <string name="tamaño">Tamaño</string>
+    <string name="modificacion">Modificación</string>
+    <string name="info">info</string>
+    <string name="ranombrar">rename</string>
+    <string name="copy">copy</string>
+    <string name="move">move</string>
+    <string name="delete">delete</string>
+    <string name="acceder">acceder</string>
+    <string name="file_explorer">FILE EXPLORER</string>
+    <string name="ususario">Ususario</string>
+    <string name="contrase_a">Contraseña</string>
+</resources>

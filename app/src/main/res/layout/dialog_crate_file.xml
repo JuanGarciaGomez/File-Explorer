@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/teal_200"
+        android:ems="10"
+        android:hint="Name"
+        android:textColorHint="@color/teal_200"
+        android:inputType="textPersonName" />
+
+    <RadioGroup
+        android:id="@+id/dialog_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/dialog_radio_folder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_200"
+            android:checked="true"
+            android:text="@string/folder" />
+
+        <RadioButton
+            android:id="@+id/dialog_radio_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_200"
+            android:text="@string/file" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:padding="16dp"
+            android:textColor="@color/teal_200"
+            android:text="@string/cancel" />
+
+        <TextView
+            android:id="@+id/txt_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textColor="@color/teal_200"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:padding="16dp"
+            android:text="@string/ok" />
+    </LinearLayout>
+</LinearLayout>

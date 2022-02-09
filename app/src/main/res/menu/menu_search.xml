@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/icon_search_20"
+        android:title="search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/add_folder"
+        android:icon="@drawable/add_folders"
+        android:title="add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/comprimir"
+        android:title="Compress"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/unPack"
+        android:title="Decompress"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/info"
+        android:title="Info"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/rename"
+        android:title="Rename"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/copy"
+        android:title="Copy"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/move"
+        android:title="Move"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/delete"
+        android:title="Delete"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/login"
+        android:title="Login"
+        app:showAsAction="never" />
+
+</menu>
