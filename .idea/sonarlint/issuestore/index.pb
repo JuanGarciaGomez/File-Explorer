@@ -11,5 +11,3 @@ x
 Happ/src/main/java/com/example/fileexplorer/ui/viewmodel/FileViewModel.kt,b\5\b5cd65fff30f58fe86656b6d65de463dd91c47eb
 u
 Eapp/src/main/java/com/example/fileexplorer/data/utils/Cryptography.kt,d\6\d6f759621ba7274f6294c8ae3b6b968f8d77d9c9
-Å
-Qapp/src/main/java/com/example/fileexplorer/data/extensionsfunctions/Extensions.kt,9\e\9efdc54e9bbb3021d6552b66b40ef3f05da811c8
